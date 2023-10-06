@@ -1,4 +1,5 @@
 print(' º▬▬▬▬º BEM VINDO AO JOKENPO º▬▬▬▬º')
+print()
 print('Primeira regra: Não há regras! \n'
       'Digite seus nomes ↓')
 jogador_1=input('Seu nome:' ).upper()
@@ -13,17 +14,17 @@ while True:
         opcaodoj1 = input(f'{jogador_1}, escolha entre → Pedra - Papel - Tesoura, para começar o disputa: ')
         opcaodoj2 = input(f'{jogador_2}, escolha entre → Pedra - Papel - Tesoura, para começar o disputa: ')
     if opcaodoj1 == 'pedra' and opcaodoj2 == 'tesoura':
-        print(f'A {opcaodoj1} quebra a {opcaodoj2} (×﹏×) . {jogador_1} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
+        print(f'A {opcaodoj1} quebra a {opcaodoj2} (×﹏×)  {jogador_1} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
     elif opcaodoj1 == 'pedra' and opcaodoj2 == 'papel':
-        print(f'O {opcaodoj2} embrulha a {opcaodoj1} (×﹏×) . {jogador_2} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
+        print(f'O {opcaodoj2} embrulha a {opcaodoj1} (×﹏×)  {jogador_2} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
     elif opcaodoj1 == 'papel' and opcaodoj2 == 'pedra':
-        print(f'O {opcaodoj1} embrulha a {opcaodoj2} (×﹏×) . {jogador_1} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
+        print(f'O {opcaodoj1} embrulha a {opcaodoj2} (×﹏×)  {jogador_1} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
     elif opcaodoj1 == 'papel' and opcaodoj2 == 'tesoura':
-        print(f'A {opcaodoj2} corta o {opcaodoj1} (×﹏×) . {jogador_2} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
+        print(f'A {opcaodoj2} corta o {opcaodoj1} (×﹏×)  {jogador_2} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
     elif opcaodoj1 == 'tesoura' and opcaodoj2 == 'papel':
-        print(f'A {opcaodoj1} corta o {opcaodoj2} (×﹏×) . {jogador_1} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
+        print(f'A {opcaodoj1} corta o {opcaodoj2} (×﹏×)  {jogador_1} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
     elif opcaodoj1 == 'tesoura' and opcaodoj2 == 'pedra':
-        print(f'A {opcaodoj2} quebra a {opcaodoj1} (×﹏×) . {jogador_2} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
+        print(f'A {opcaodoj2} quebra a {opcaodoj1} (×﹏×)  {jogador_2} VENCEU! ( ͡ᵔ ͜ʖ ͡ᵔ) ')
     print()
     nova_rodada = input('Deseja disputar novamente? \n'
                             'Digite (S) SIM para continuar \n'
