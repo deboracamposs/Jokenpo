@@ -1,6 +1,6 @@
 print(' º▬▬▬▬º BEM VINDO AO JOKENPO º▬▬▬▬º')
 print()
-print('Primeiro regra: Não há regras! \n'
+print('Primeira regra: Não há regras! \n'
       'Digite seus nomes ↓')
 jogador_1=input('Seu nome:' ).upper()
 jogador_2=input('Seu nome:'  ).upper()
